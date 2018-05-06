@@ -963,6 +963,8 @@ a.btn-participant:focus {
   .contacts-footer {
     margin: 0 auto;
     margin-top: 30px; }
+    .contacts-footer p {
+      font-size: 20px; }
 
 .col-social-footer {
   text-align: center; }
@@ -1156,7 +1158,10 @@ a.btn-participant:focus {
     margin-right: 0; }
 
   .details-text, .details-address {
-    line-height: inherit; } }
+    line-height: inherit; }
+
+  .col-holiday-item {
+    font-size: 16px; } }
 @media (max-width: 576px) {
   .event-title-big,
   .event-title-name {
