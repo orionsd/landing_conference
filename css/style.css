@@ -236,7 +236,6 @@ a.btn-top-nav:not(focus) {
   align-items: center; }
 
 .section-event {
-  width: 90%;
   padding-bottom: 2px; }
 
 .event-icon {
@@ -1099,12 +1098,19 @@ a.btn-participant:focus {
     margin-bottom: 15px; }
 
   .title,
-  .col-holiday-title {
+  .col-holiday-title,
+  .take-place .title,
+  .meeting-title-big {
     font-size: 30px;
     text-align: center; }
     .title:after,
-    .col-holiday-title:after {
+    .col-holiday-title:after,
+    .take-place .title:after,
+    .meeting-title-big:after {
       display: none; }
+
+  .take-place .title {
+    margin-top: 20px; }
 
   a.buy-ticket-btn {
     margin-left: auto !important;
@@ -1144,10 +1150,13 @@ a.btn-participant:focus {
       background-size: 80px; }
 
   .promotion .title {
-    font-size: 36px; }
+    font-size: 30px; }
 
   .btn-wrapper-top {
-    margin-right: 0; } }
+    margin-right: 0; }
+
+  .details-text, .details-address {
+    line-height: inherit; } }
 @media (max-width: 576px) {
   .event-title-big,
   .event-title-name {
